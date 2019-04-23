@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": false,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "outDir": "./dist",
+    "paths": {
+      "app-*": ["./packages/app-*/src"],
+      "component-*": ["./packages/component-*/src"],
+      "child-history": ["./packages/child-history/src"]
+    }
+  },
+  "exclude": ["node_modules/*", "*/**/dist", "coverage"],
+  "include": ["workbench/src", "packages/*/src"]
+}
