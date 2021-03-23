@@ -25,7 +25,7 @@
     "fork-ts-checker-webpack-plugin": "^1.2.0",
     "html-webpack-plugin": "^4.0.0-beta.5",
     "react": "^16.8.6",
-    "react-dev-utils": "^9.0.0",
+    "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.0",
     "react-router-config": "^4.4.0-beta.6",
